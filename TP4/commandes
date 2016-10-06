@@ -1,0 +1,5 @@
+alias AELTP4postEval="java -jar ../../jflex-1.6.1.jar src/postfixees/postfixees.lex && javac -cp src -d bin src/postfixees/Evaluateur.java && java -cp bin postfixees.Evaluateur testPost.txt"
+
+AELTP4post="java -jar ../../jflex-1.6.1.jar src/postfixees/postfixees.lex && javac -cp src -d bin src/postfixees/TestPF.java && java -cp bin postfixees.TestPF testPost.txt"
+
+alias AELTP4="java -jar ../../jflex-1.6.1.jar src/exemple1/exemple1.lex && javac -cp src -d bin src/exemple1/TestEx1.java && java -cp bin exemple1.TestEx1 test.txt"
